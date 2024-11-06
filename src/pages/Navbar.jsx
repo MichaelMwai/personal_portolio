@@ -30,14 +30,14 @@ export const Navbar = () => {
           </StyledNavbarLI>
           <StyledNavbarLI>
             <StyledLink to="/snapshots" onClick={toggleMenu}>
-              Snapshots
+              Not Coding
             </StyledLink>
           </StyledNavbarLI>
-          <StyledNavbarLI>
+          {/* <StyledNavbarLI>
             <StyledLink to="/resume" onClick={toggleMenu}>
               Resume
             </StyledLink>
-          </StyledNavbarLI>
+          </StyledNavbarLI> */}
         </NavLinks>
         <ThemeToggle onClick={toggleTheme}>
           {theme === "light" ? <MoonIcon /> : <SunIcon />}

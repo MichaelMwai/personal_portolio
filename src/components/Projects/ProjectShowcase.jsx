@@ -8,7 +8,7 @@ export const ProjectShowcase = ({ limit = 3, useHomepageStyle = false }) => {
 
   return (
     <ShowcaseContainer>
-      <h2>Featured Projects</h2>
+      <h2>Soon To Be Featured Projects</h2>
       <ProjectGrid $useHomepageStyle={useHomepageStyle}>
         {featuredProjects.map((project, index) => (
           <ProjectCard

@@ -6,7 +6,7 @@ export const Footer = () => {
       <FooterContent>
         <SocialLinks>
           <SocialLink
-            href="https://www.linkedin.com/in/sehun-park-5b280b164"
+            href="https://www.linkedin.com/in/michael-mwai-6b351216a/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
@@ -14,20 +14,20 @@ export const Footer = () => {
             <LinkedInIcon />
           </SocialLink>
           <SocialLink
-            href="https://github.com/sehundpark"
+            href="https://github.com/MichaelMwai"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
           >
             <GitHubIcon />
           </SocialLink>
-          <SocialLink href="mailto:sehunpcodes@gmail.com">
+          <SocialLink href="mailto:michaeldmwai@gmail.com">
             <EmailIcon />
           </SocialLink>
         </SocialLinks>
       </FooterContent>
       <Copyright>
-        © {new Date().getFullYear()} Sehun Park. All rights reserved.
+        © {new Date().getFullYear()} Michael D. Mwai. All rights reserved.
       </Copyright>
     </StyledFooter>
   );

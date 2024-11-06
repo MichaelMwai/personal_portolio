@@ -7,15 +7,15 @@ import { SkillsSection } from "../components/SkillsSection";
 export const Home = () => {
   const skills = [
     "JavaScript",
-    "TypeScript",
     "React",
     "HTML",
     "CSS",
     "Node.js",
-    "Express",
     "Git",
-    "Adobe Lightroom",
+    "Adobe Illustrator",
+    "Adobe Premier Pro",
     "Adobe Photoshop",
+    "Figma",
   ];
 
   // const scrollToFooter = () => {
@@ -32,21 +32,20 @@ export const Home = () => {
           <AnimatedIntro />
         </StyledHomeBlurb>
         <StyledProfileImgContainer>
-          <StyledProfileImg src={profileAvatar} alt="Profile avatar of Sehun" />
+          <StyledProfileImg src={profileAvatar} alt="Mike the Developer" />
         </StyledProfileImgContainer>
       </StyledHomeSectionOne>
 
       <StyledSection>
         <h2>About Me</h2>
         <p>
-          I’m a self-taught Front-End Developer driven by a passion for blending
-          technology and creativity to craft impactful user experiences. My
-          diverse background in creative fields like acting, cooking, and
-          photography, along with roles in marketing, sales, and customer
-          service, has honed my adaptability and communication skills. As a
-          developer, I now channel this unique skill set to design intuitive,
-          user-focused products that enhance both user satisfaction and business
-          growth.
+          I'm Michael, a self-taught <b>Front-End Developer</b> and{" "}
+          <b>Fitness Fanatic</b>. I thrive on the thrill of learning new skills,
+          whether it’s mastering React or transforming a pencil sketch into a
+          sleek design. When I’m not crafting user-friendly interfaces, you can
+          find me at a marathon or hiking, often resulting in unexpected
+          adventures. I’m enjoying this journey of creativity and code and would
+          love to create something amazing together!
         </p>
       </StyledSection>
 

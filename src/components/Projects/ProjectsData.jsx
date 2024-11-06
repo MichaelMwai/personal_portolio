@@ -6,7 +6,7 @@ import RecipeFinderGIF from "../../assets/works/comingSoon.gif";
 export const projectsData = [
   {
     image: RecipeFinderGIF,
-    title: "My First Upload",
+    title: "Project Upload",
     description:
       "Maybe a full-stack TypeScript application leveraging React with custom hooks, context for state management, and styled-components for dynamic theming and responsive design.",
     link: "https://github.com/MichaelMwai",
@@ -14,9 +14,17 @@ export const projectsData = [
   },
   {
     image: RecipeFinderGIF,
-    title: "My Second Upload",
+    title: "Project Upload",
     description:
-      "Perhaps an interactive web project using JavaScript, HTML, and CSS. It employs object-oriented programming for game logic, features dynamic DOM manipulation.",
+      "Perhaps an interactive web project using JavaScript, HTML, and CSS. It employs object-oriented programming for game logic, features dynamic DOM manipulation and more..",
+    link: "https://github.com/MichaelMwai",
+    demo: "#",
+  },
+  {
+    image: RecipeFinderGIF,
+    title: "Project Upload",
+    description:
+      "Maybe a full-stack TypeScript application leveraging React with custom hooks, context for state management, and styled-components for dynamic theming and responsive design.",
     link: "https://github.com/MichaelMwai",
     demo: "#",
   },
